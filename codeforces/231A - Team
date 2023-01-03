@@ -1,0 +1,7 @@
+T = int(input())
+ans = 0
+for i in range(T):
+    w = str(input())
+    if w.count('1') > 1:
+        ans+=1
+print(ans)
